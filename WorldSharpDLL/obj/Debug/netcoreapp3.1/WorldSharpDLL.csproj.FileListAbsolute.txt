@@ -1,0 +1,9 @@
+C:\Users\Joshua\source\repos\WorldSharp\WorldSharpDLL\bin\Debug\netcoreapp3.1\WorldSharpDLL.deps.json
+C:\Users\Joshua\source\repos\WorldSharp\WorldSharpDLL\bin\Debug\netcoreapp3.1\WorldSharpDLL.dll
+C:\Users\Joshua\source\repos\WorldSharp\WorldSharpDLL\obj\Debug\netcoreapp3.1\WorldSharpDLL.AssemblyInfoInputs.cache
+C:\Users\Joshua\source\repos\WorldSharp\WorldSharpDLL\obj\Debug\netcoreapp3.1\WorldSharpDLL.AssemblyInfo.cs
+C:\Users\Joshua\source\repos\WorldSharp\WorldSharpDLL\bin\Debug\netcoreapp3.1\WorldSharpDLL.pdb
+C:\Users\Joshua\source\repos\WorldSharp\WorldSharpDLL\obj\Debug\netcoreapp3.1\WorldSharpDLL.csprojAssemblyReference.cache
+C:\Users\Joshua\source\repos\WorldSharp\WorldSharpDLL\obj\Debug\netcoreapp3.1\WorldSharpDLL.csproj.CoreCompileInputs.cache
+C:\Users\Joshua\source\repos\WorldSharp\WorldSharpDLL\obj\Debug\netcoreapp3.1\WorldSharpDLL.dll
+C:\Users\Joshua\source\repos\WorldSharp\WorldSharpDLL\obj\Debug\netcoreapp3.1\WorldSharpDLL.pdb
