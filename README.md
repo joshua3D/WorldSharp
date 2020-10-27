@@ -9,7 +9,7 @@
 
 ### **A CLI**
 
-A Command Line Interface will be used to generate either JSON or BITMAP files which represent procedural data about the Overworlds created
+A Command Line Interface will be used to generate either JSON or BITMAP files which represent procedural data about the overworld
 
 ### **A DLL**
 
