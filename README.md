@@ -1,5 +1,5 @@
 # WorldSharp
- A simple, bare-bones .Net Core CLI application for generating Overworld data for Roguelikes & RPGs
+ A simple, bare-bones .Net Core CLI application for generating 'overworld' data for Roguelikes & RPGs
  
 #### This project uses [FastNoise](https://github.com/Auburn/FastNoise) by [Auburn](https://github.com/Auburn)
 
@@ -14,6 +14,7 @@ A Command Line Interface will be used to generate either JSON or BITMAP files wh
 ### **A DLL**
 
 All the main functionality/framework of WorldSharp will be distributed as a DLL
+
 
 ### **An Example [SadConsole](https://sadconsole.com/) project**
 
