@@ -5,7 +5,7 @@ namespace WorldSharpDLL.Generators
 {
     public class GeneratorMountains : Generator
     {
-        protected override Topography ComputeTypography(float value)
+        protected override Topography ComputeTypography(float value, object args = null)
         {
             if (value <= 0.65)
             {
@@ -26,7 +26,7 @@ namespace WorldSharpDLL.Generators
             return Topography.Water;
         }
 
-        protected override Color ComputeColor(Topography topography)
+        protected override Color ComputeColor(Topography topography, object args = null)
         {
             switch (topography)
             {

@@ -88,16 +88,18 @@ namespace WorldSharpDLL.Generators
 
             var world = new World()
             {
-                Tiles = new Tile[width][]
+                Tiles = new Tile[width][],
+                Width = width,
+                Height = height
             };
 
             const float offset = 1.0f;
 
-            for (int x = 0; x < width; x += 1)
+            for (int x = 0; x < world.Width; x += 1)
             {
                 world.Tiles[x] = new Tile[height];
 
-                for (int y = 0; y < height; y += 1)
+                for (int y = 0; y < world.Height; y += 1)
                 {
                     Tile tile = new Tile()
                     {
@@ -128,25 +130,28 @@ namespace WorldSharpDLL.Generators
             return world;
         }
 
-        protected virtual Topography ComputeTypography(float elevation) 
+        protected virtual Topography ComputeTypography(float elevation, object args = null) 
         {
-            if (elevation <= 0.1f)
+            // the most basic approach to computing topography is to compare elevation
+            // the values set here are arbitrary, and chosen for the simplest output
+
+            if (elevation <= 0.10f)
             {
                 return Topography.Water;
             }
-            else if (elevation <= 0.25f)
+            else if (elevation <= 0.20f)
             {
                 return Topography.Beach;
             }
-            else if (elevation <= 0.5f)
+            else if (elevation <= 0.70f)
             {
                 return Topography.Grass;
             }
-            else if (elevation <= 0.75f)
+            else if (elevation <= 0.80f)
             {
                 return Topography.Hills;
             }
-            else if (elevation <= 0.925f)
+            else if (elevation <= 0.93f)
             {
                 return Topography.Mountains;
             }
@@ -156,7 +161,7 @@ namespace WorldSharpDLL.Generators
             }
         }
 
-        protected virtual Color ComputeColor(Topography topography) 
+        protected virtual Color ComputeColor(Topography topography, object args = null) 
         {
             switch (topography)
             {

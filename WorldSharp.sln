@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldSharpCLI", "WorldSharpCLI\WorldSharpCLI.csproj", "{48CA1C4B-5CB4-44D8-9216-43F20794BC2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldSharpCLI", "WorldSharpCLI\WorldSharpCLI.csproj", "{48CA1C4B-5CB4-44D8-9216-43F20794BC2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldSharpDLL", "WorldSharpDLL\WorldSharpDLL.csproj", "{11921B14-698E-4B41-A273-EBFDA79595B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldSharpDLL", "WorldSharpDLL\WorldSharpDLL.csproj", "{11921B14-698E-4B41-A273-EBFDA79595B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldSharp-SadConsole", "WorldSharp-SadConsole\WorldSharp-SadConsole.csproj", "{69AEBFA4-BD18-4CB0-A0E0-936EC7E0138E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{11921B14-698E-4B41-A273-EBFDA79595B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11921B14-698E-4B41-A273-EBFDA79595B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11921B14-698E-4B41-A273-EBFDA79595B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69AEBFA4-BD18-4CB0-A0E0-936EC7E0138E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AEBFA4-BD18-4CB0-A0E0-936EC7E0138E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AEBFA4-BD18-4CB0-A0E0-936EC7E0138E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AEBFA4-BD18-4CB0-A0E0-936EC7E0138E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

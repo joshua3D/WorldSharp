@@ -9,7 +9,6 @@ namespace WorldSharpCLI
     class Program
     {
         public static readonly Random Random = new Random();
-
         static void Main(string[] args)
         {
             var generator = new Generator();
