@@ -18,4 +18,4 @@ All the main functionality/framework of WorldSharp will be distributed as a DLL
 
 ### **An Example [SadConsole](https://sadconsole.com/) project**
 
-This will be used to demonstrate how the framework might be used in a game.
+This will be used to demonstrate how the framework might be used in a game
